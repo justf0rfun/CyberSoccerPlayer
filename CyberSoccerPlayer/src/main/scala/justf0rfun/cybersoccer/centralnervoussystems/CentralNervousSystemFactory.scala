@@ -4,4 +4,6 @@ trait CentralNervousSystemFactory {
 
   def createCentralNervousSystem(peripheralNervousSystem: PeripheralNervousSystem): CentralNervousSystem
   
+  def teamName: String
+  
 }
